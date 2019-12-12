@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { BrewList } from './components/BrewList';
+import BrewList from './components/BrewList';
 
 function App() {
   return (
