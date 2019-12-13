@@ -20,6 +20,7 @@ const reducer = (state = initialState, action) => {
     case FETCH_BREWRY_SUCCESS:
       return {
         ...state,
+        brewry: action.payload,
         isFetching: false,
         error: ''
       };
